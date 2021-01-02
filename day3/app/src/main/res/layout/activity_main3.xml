@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2"
+    android:orientation="vertical"
+    tools:context=".MainActivity3">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="#00FFFFFF"
+        android:fontFamily="sans-serif-condensed"
+        android:padding="10dp"
+        android:text="your personsl data"
+        android:textAlignment="center"
+        android:textColor="#D037464F"
+        android:textSize="36sp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/NameView"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="50dp"
+        android:paddingLeft="10dp"
+        android:textAlignment="textStart"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/NumberView"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:paddingLeft="10dp"
+        android:textAlignment="textStart"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/EmailView"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:paddingLeft="10dp"
+        android:textAlignment="textStart"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/addressView"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:paddingLeft="10dp"
+        android:singleLine="false"
+        android:textAlignment="textStart"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/abc_vector_test" />
+
+
+</LinearLayout>
